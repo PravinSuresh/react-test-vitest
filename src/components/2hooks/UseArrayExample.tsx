@@ -1,4 +1,4 @@
-import { useArray } from "./useArray";
+import { useArray } from "./UseArray";
 
 export default function UseArrayExample() {
   const { array, set, push, remove, filter, update, clear } = useArray([
