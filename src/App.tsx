@@ -1,12 +1,14 @@
-import { SimplePost } from "./components/1Simple/SimplePost";
+// import { SimplePost } from "./components/1Simple/SimplePost";
+import UseArrayExample from "./components/2hooks/useArrayExample";
 function App() {
   return (
     <>
-      <SimplePost
+      {/* <SimplePost
         user='Pravin'
         content='Is learning something'
         likesBy={["Suresh", "Nantha", "Nalanda"]}
-      />
+      /> */}
+      <UseArrayExample />
     </>
   );
 }
