@@ -1,7 +1,12 @@
+import { SimplePost } from "./components/1Simple/SimplePost";
 function App() {
   return (
     <>
-      <div>Test</div>
+      <SimplePost
+        user='Pravin'
+        content='Is learning something'
+        likesBy={["Suresh", "Nantha", "Nalanda"]}
+      />
     </>
   );
 }
